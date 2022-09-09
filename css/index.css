@@ -1,0 +1,35 @@
+.logo_content{
+    background: #fff;
+    width: 200px;
+    height: 130px;
+    margin: 0;
+}
+
+.imagen-logo{
+    width: 200px;
+    height: 60px;
+}
+
+@media (min-width: 900px){
+    .logo_content{
+        display: flex;
+        background: #fff;
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+    .rd-navbar-fixed .rd-navbar-brand {
+        position: relative;
+        margin-left: 6px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: left;
+        font-size: 22px;
+        line-height: 46px;
+        width: 100px;
+    }
+}
+.logo{
+    background: #1D100B;
+}
