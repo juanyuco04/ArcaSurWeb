@@ -8547,12 +8547,6 @@ html.rd-navbar-fixed-linked .page {
 	width: auto;
 	height: auto;
 }
-/*
-@media (min-width: 1200px) {
-	.rd-navbar-modern.rd-navbar-static .rd-navbar-brand img {
-
-	}
-} */
 
 .rd-navbar-modern.rd-navbar-static .rd-nav-item + .rd-nav-item {
 	margin-left: 40px;
