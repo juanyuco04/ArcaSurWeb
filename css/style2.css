@@ -1,0 +1,259 @@
+.section-sm, .section-md, .section-lg, .section-custom, .section-xl, .section-xxl, .section-variant-1, .section-variant-2 {
+    padding: 60px 0;
+}
+
+
+.bg-gray-700 {
+    background-color: #252525;
+    fill: #252525;
+}
+
+.context-dark, .bg-gray-darker, .bg-gray-700, .bg-image, .bg-gradient, .bg-secondary-2 {
+    color: #ffffff;
+}
+
+section {
+    position: relative;
+}
+
+.bg-gray-700 {
+    background-color: #252525;
+    fill: #252525;
+}
+
+.context-dark, .bg-gray-darker, .bg-gray-700, .bg-image, .bg-gradient, .bg-secondary-2 {
+    color: #ffffff;
+}
+
+.bg-gray-700 {
+    background-color: #252525;
+    fill: #252525;
+}
+.context-dark, .bg-gray-darker, .bg-gray-700, .bg-image, .bg-gradient, .bg-secondary-2 {
+    color: #ffffff;
+}
+
+html .row-50 {
+    margin-bottom: -50px;
+}
+
+html .row-50 > * {
+    margin-bottom: 50px;
+}
+
+html .row-50 > * {
+    margin-bottom: 50px;
+}
+
+h3 + .divider {
+    margin-top: 20px;
+}
+.divider {
+    display: inline-block;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    height: 3px;
+    max-width: 100px;
+    width: 100%;
+}
+
+h3, .heading-3 {
+    font-size: 24px;
+    line-height: 1.45;
+    letter-spacing: 0.06em;
+}
+
+/*     margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #151515;
+}
+ */
+.context-dark .text-gray-light, .bg-gray-darker .text-gray-light, .bg-gray-700 .text-gray-light, .bg-image .text-gray-light, .bg-gradient .text-gray-light, .bg-secondary-2 .text-gray-light {
+    color: #dfe1ea;
+}
+
+.page .text-gray-light {
+    color: #838386;
+}
+.divider + p {
+    margin-top: 10px;
+}
+* + p {
+    margin-top: 15px;
+}
+p {
+    margin: 0;
+}
+
+.context-dark .text-gray-light, .bg-gray-darker .text-gray-light, .bg-gray-700 .text-gray-light, .bg-image .text-gray-light, .bg-gradient .text-gray-light, .bg-secondary-2 .text-gray-light {
+    color: #dfe1ea;
+}
+
+.page .text-gray-light {
+    color: #838386;
+}
+.divider + p {
+    margin-top: 10px;
+}
+* + p {
+    margin-top: 15px;
+}
+p {
+    margin: 0;
+}
+.time-line-vertical {
+    position: relative;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.time-line-vertical-element {
+    position: relative;
+    padding-left: 35px;
+}
+@media (min-width: 1200px) { 
+.justify-content-xl-between {
+    justify-content: center !important;
+}
+}
+
+@media (min-width: 1200px) {
+.justify-content-xl-between {
+    justify-content: center; 
+}
+}
+
+@media (min-width: 768px) {
+ .time-line-vertical-element {
+    padding-left: 0;
+}
+.time-line-vertical-element {
+    position: relative;
+    padding-left: 35px;
+}
+}
+
+.unit-spacing-xxl {
+    margin-bottom: -10px;
+    margin-left: -15px;
+}
+
+.unit {
+    display: flex;
+    flex: 0 1 100%;
+    margin-bottom: -30px;
+    margin-left: -20px;
+}
+
+.unit-spacing-xxl {
+    margin-bottom: -10px;
+    margin-left: -15px;
+}
+
+
+.unit-left, .unit-right {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+.unit > * {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.bg-gray-darker .time-line-vertical:before, .bg-gray-darker .time-line-vertical-element:last-child .unit-body:after, .bg-gray-darker .time-line-vertical-element:before, .bg-gray-darker .time-line-vertical-element .unit-body:before, .bg-gray-700 .time-line-vertical:before, .bg-gray-700 .time-line-vertical-element:last-child .unit-body:after, .bg-gray-700 .time-line-vertical-element:before, .bg-gray-700 .time-line-vertical-element .unit-body:before {
+    background-color: #29293a;
+    border-color: #ffa900;
+}
+.time-line-vertical-element:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+.time-line-vertical-element:before, .time-line-horizontal-element .time-line-time:before {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #ffa900;
+}
+
+.bg-gray-darker .time-line-vertical:before, .bg-gray-darker .time-line-vertical-element:last-child .unit-body:after, .bg-gray-darker .time-line-vertical-element:before, .bg-gray-darker .time-line-vertical-element .unit-body:before, .bg-gray-700 .time-line-vertical:before, .bg-gray-700 .time-line-vertical-element:last-child .unit-body:after, .bg-gray-700 .time-line-vertical-element:before, .bg-gray-700 .time-line-vertical-element .unit-body:before {
+    background-color: #29293a;
+    border-color: #ffa900;
+}
+.time-line-vertical:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 7px;
+    transform: translateX(-50%);
+    border-left: 2px solid #ffa900;
+}
+
+.bg-gray-darker .time-line-time, .bg-gray-darker .time-line-content, .bg-gray-700 .time-line-time, .bg-gray-700 .time-line-content {
+    color: #dfe1ea;
+}
+
+.time-line-time {
+    color: #29293a;
+    letter-spacing: 0.02em;
+}
+
+element.style {
+    visibility: visible;
+    animation-delay: 0.6s;
+    animation-name: fadeInRight;
+}
+.bg-gray-darker .time-line-time, .bg-gray-darker .time-line-content, .bg-gray-700 .time-line-time, .bg-gray-700 .time-line-content {
+    color: #dfe1ea;
+}
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+element.style {
+    visibility: visible;
+    animation-delay: 0s;
+    animation-name: fadeInLeft;
+}
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.unit-spacing-xxl > * {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.unit-body {
+    flex: 0 1 auto;
+}
+.unit > * {
+    margin-bottom: 30px;
+    /* margin-left: 20px; */
+}
+
+
+element.style {
+    visibility: visible;
+    animation-delay: 0.6s;
+    animation-name: fadeInRight;
+}
+.bg-gray-darker .time-line-time, .bg-gray-darker .time-line-content, .bg-gray-700 .time-line-time, .bg-gray-700 .time-line-content {
+    color: #dfe1ea;
+}
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}

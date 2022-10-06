@@ -525,7 +525,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-classic-title a, .box-icon-classic-title a:focus, .box-icon-classic-title a:active {
-	color: inherit;
+	color: #1d100b;
 }
 
 .box-icon-classic-title a:hover {
@@ -544,24 +544,24 @@ a[href*='tel'], a[href*='mailto'] {
 
 @keyframes iconClassic {
 	30% {
-		color: #151515;
+		color: #fff;
 		background: #f3f3f3;
 	}
 	33% {
 		color: #ffffff;
-		background: #1D100B;
+		background: #fff;
 	}
 	64% {
 		color: #ffffff;
 		background: #1D100B;
 	}
 	67% {
-		color: #151515;
-		background: #1D100B;
+		color: #ffff;
+		background: #fff;
 	}
 	97% {
-		color: #151515;
-		background: #1D100B;
+		color: #fff;
+		background: #fff;
 	}
 }
 
@@ -9334,7 +9334,7 @@ html.rd-navbar-fixed-linked .page {
 		width: auto;
 		bottom: auto;
 		left: auto;
-		transform: translate3d(0, -50%, 0);
+		transform: translate3d(0, -50%, 0)
 	}
 	.swiper-pagination-2 .swiper-pagination-bullet {
 		display: flex;
@@ -9484,7 +9484,26 @@ html.rd-navbar-fixed-linked .page {
 	margin-top: 30px;
 }
 
+@media only screen and (max-width: 760px){
+	.swiper-slider {
+		height: 250px;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+    .big{
+		font-size: 11px;
+	}
+	.button-lg {
+		padding: 9px 46px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+}
+
 @media (max-width: 575px) {
+	
 	.swiper-slider-1 h1 {
 		letter-spacing: .25em;
 	}
