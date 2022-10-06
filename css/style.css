@@ -9371,7 +9371,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-container-horizontal > .swiper-pagination {
-	bottom: 20px;
+	bottom: 10px;
 	left: 0;
 	width: 100%;
 }
